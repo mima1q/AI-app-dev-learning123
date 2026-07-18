@@ -1,0 +1,17 @@
+fruits=["苹果","香蕉","橙子"]
+print(fruits)
+print(fruits[0])
+print(fruits[1])
+print(fruits[2])
+fruits.append("西瓜")
+print(fruits)
+fruits.insert(1,"草莓")
+print(fruits)
+fruits.remove("香蕉")
+print(fruits)
+last=fruits.pop()
+print(fruits)
+print(last)
+print(len(fruits))
+for fruit in fruits:
+    print(f"我喜欢吃{fruit}。")
